@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors - Blue -->
+    <color name="color_primary">#2196F3</color>
+    <color name="color_primary_variant">#1976D2</color>
+    <color name="color_primary_dark">#1565C0</color>
+    
+    <!-- Secondary Colors -->
+    <color name="color_secondary">#03DAC5</color>
+    <color name="color_secondary_variant">#018786</color>
+    
+    <!-- Background Colors -->
+    <color name="color_background">#FFFFFF</color>
+    <color name="color_surface">#FFFFFF</color>
+    
+    <!-- Text Colors -->
+    <color name="color_text_primary">#212121</color>
+    <color name="color_text_secondary">#757575</color>
+    <color name="color_text_hint">#BDBDBD</color>
+    <color name="color_text_on_primary">#FFFFFF</color>
+    <color name="color_text_on_secondary">#000000</color>
+    
+    <!-- Status Colors -->
+    <color name="color_error">#B00020</color>
+    <color name="color_success">#4CAF50</color>
+    <color name="color_warning">#FF9800</color>
+    <color name="color_info">#2196F3</color>
+    
+    <!-- Common Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+</resources>

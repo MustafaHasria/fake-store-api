@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Android Test Task Java</string>
+    
+    <!-- Login Screen -->
+    <string name="login_title">Login</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="error_invalid_credentials">Invalid username or password</string>
+    <string name="error_network">Network error. Please check your connection.</string>
+    <string name="error_unexpected">An unexpected error occurred</string>
+    <string name="loading">Loading…</string>
+    
+    <!-- Products Screen -->
+    <string name="products_title">Products</string>
+    <string name="product_details">Product Details</string>
+    <string name="no_products">No products available</string>
+    <string name="error_loading_products">Failed to load products</string>
+    
+    <!-- Product Details -->
+    <string name="price">Price</string>
+    <string name="description">Description</string>
+    <string name="category">Category</string>
+    <string name="rating">Rating</string>
+    
+    <!-- Logout -->
+    <string name="logout">Logout</string>
+    <string name="logout_confirmation">Are you sure you want to logout?</string>
+    
+    <!-- Errors -->
+    <string name="error_token_expired">Session expired. Please login again.</string>
+    <string name="error_refresh_failed">Failed to refresh session. Please login again.</string>
+</resources>

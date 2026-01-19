@@ -1,0 +1,48 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base Theme - Force Light Mode -->
+    <style name="Base.Theme.AndroidTestTaskJava" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Primary Colors -->
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryVariant">@color/color_primary_variant</item>
+        <item name="colorOnPrimary">@color/color_text_on_primary</item>
+        
+        <!-- Secondary Colors -->
+        <item name="colorSecondary">@color/color_secondary</item>
+        <item name="colorSecondaryVariant">@color/color_secondary_variant</item>
+        <item name="colorOnSecondary">@color/color_text_on_secondary</item>
+        
+        <!-- Background Colors -->
+        <item name="android:colorBackground">@color/color_background</item>
+        <item name="colorSurface">@color/color_surface</item>
+        <item name="colorOnSurface">@color/color_text_primary</item>
+        
+        <!-- Error Color -->
+        <item name="colorError">@color/color_error</item>
+        <item name="colorOnError">@color/white</item>
+        
+        <!-- Status Bar -->
+        <item name="android:statusBarColor">@color/color_primary_dark</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        
+        <!-- Text Colors -->
+        <item name="android:textColorPrimary">@color/color_text_primary</item>
+        <item name="android:textColorSecondary">@color/color_text_secondary</item>
+        <item name="android:textColorHint">@color/color_text_hint</item>
+        
+        <!-- Text Sizes -->
+        <item name="android:textSize">@dimen/text_size_normal</item>
+        
+        <!-- Popup Menu Style -->
+        <item name="popupMenuStyle">@style/PopupMenuStyle</item>
+        <item name="actionOverflowMenuStyle">@style/PopupMenuStyle</item>
+    </style>
+    
+    <!-- Main Theme -->
+    <style name="Theme.AndroidTestTaskJava" parent="Base.Theme.AndroidTestTaskJava" />
+    
+    <!-- Popup Menu Style -->
+    <style name="PopupMenuStyle" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">@color/color_surface</item>
+        <item name="android:textColor">@color/color_text_primary</item>
+    </style>
+</resources>
